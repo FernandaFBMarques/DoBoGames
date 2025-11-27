@@ -1,0 +1,21 @@
+.ranking {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.ranking table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ranking th,
+.ranking td {
+  text-align: left;
+  padding: 8px 6px;
+}
+
+.ranking tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.02);
+}

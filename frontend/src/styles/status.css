@@ -1,0 +1,33 @@
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #0d1324;
+}
+
+.status__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--danger);
+  display: inline-block;
+}
+
+.dot[data-connected="true"] {
+  background: var(--accent-2);
+}

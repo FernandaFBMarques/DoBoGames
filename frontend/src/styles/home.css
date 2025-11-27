@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home__header {
+  text-align: center;
+}
+
+.home__panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.home__hint {
+  color: var(--muted);
+  text-align: center;
+}
