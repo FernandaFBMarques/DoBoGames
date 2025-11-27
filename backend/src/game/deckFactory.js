@@ -2,7 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const Card = require("./Card");
 
-const IMAGES_DIR = path.join(__dirname, "..", "..", "images");
+// Pasta com as imagens originais no projeto raiz (../images a partir de backend/src/game)
+const IMAGES_DIR = path.join(__dirname, "..", "..", "..", "images");
 const BACK_IMAGE_URL = "/assets/pets/verso.png";
 
 function shuffle(list) {
